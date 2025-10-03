@@ -1,0 +1,12 @@
+  return (
+    <>
+
+    <Navbar />
+    <Hero title="Test title" subtitle="Find the best match" />
+    <HomeCards />
+    <JobListings> 
+    </JobListings>
+    <ViewAllJobs />
+    
+    </>
+  )
