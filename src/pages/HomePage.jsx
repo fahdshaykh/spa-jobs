@@ -5,12 +5,12 @@ import ViewAllJobs from "../components/ViewAllJobs"
 
 
 function HomePage() {
+
   return (
     <>
         <Hero title="Test title" subtitle="Find the best match" />
         <HomeCards />
-        <JobListings> 
-        </JobListings>
+        <JobListings isHomePage={true} />
         <ViewAllJobs />
     </>
   )
